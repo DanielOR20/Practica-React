@@ -1,0 +1,13 @@
+{
+  "estudiantes": [
+    { "id": "1", "nombre": "Ana", "nota": 85 },
+    { "id": "2", "nombre": "Luis", "nota": 58 },
+    { "id": "3", "nombre": "Marta", "nota": 72 },
+    { "id": "4", "nombre": "Diego", "nota": 40 }
+  ],
+  "productos": [
+    { "id": "1", "nombre": "Teclado", "favorito": false },
+    { "id": "2", "nombre": "Mouse", "favorito": false },
+    { "id": "3", "nombre": "Monitor", "favorito": false }
+  ]
+}

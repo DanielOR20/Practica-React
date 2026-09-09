@@ -1,4 +1,6 @@
 import InterruptorTema from '../components/InterruptorTema';
+import ListaEstudiantes from '../components/ListaEstudiantes';
+import AprobadosEstudiantes from '../components/AprobadosEstudiantes';
 
 export default function Home() {
   return (
@@ -10,6 +12,12 @@ export default function Home() {
 
       {/* Ejercicio 1 */}
       <InterruptorTema />
+
+      {/* Ejercicio 2 */}
+      <ListaEstudiantes />
+
+      {/* Ejercicio 3 */}
+      <AprobadosEstudiantes />
     </main>
   );
-}   
+}
