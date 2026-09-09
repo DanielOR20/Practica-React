@@ -1,40 +1,57 @@
 {
-  "estudiantes": [
-    {
-      "id": "1",
-      "nombre": "Ana",
-      "nota": 85
-    },
-    {
-      "id": "2",
-      "nombre": "Luis",
-      "nota": 58
-    },
-    {
-      "id": "3",
-      "nombre": "Marta",
-      "nota": 72
-    },
-    {
-      "id": "4",
-      "nombre": "Diego",
-      "nota": 40
-    }
-  ],
   "productos": [
     {
       "id": "1",
-      "nombre": "Teclado",
+      "nombre": "Pastel de Chocolate Sublime",
+      "categoria": "pasteles",
+      "precio": 18000,
+      "calificacion": 95,
+      "disponible": true,
       "favorito": false
     },
     {
       "id": "2",
-      "nombre": "Mouse",
+      "nombre": "Cheesecake de Frutos Rojos",
+      "categoria": "postres",
+      "precio": 15000,
+      "calificacion": 88,
+      "disponible": true,
       "favorito": false
     },
     {
       "id": "3",
-      "nombre": "Monitor",
+      "nombre": "Torta Tres Leches Tradicional",
+      "categoria": "pasteles",
+      "precio": 14000,
+      "calificacion": 92,
+      "disponible": true,
+      "favorito": false
+    },
+    {
+      "id": "4",
+      "nombre": "Cupcakes Red Velvet (x6)",
+      "categoria": "postres",
+      "precio": 9000,
+      "calificacion": 55,
+      "disponible": false,
+      "favorito": false
+    },
+    {
+      "id": "5",
+      "nombre": "Tartaleta de Limón y Merengue",
+      "categoria": "postres",
+      "precio": 12000,
+      "calificacion": 85,
+      "disponible": true,
+      "favorito": false
+    },
+    {
+      "id": "6",
+      "nombre": "Pastel de Zanahoria & Nuez",
+      "categoria": "pasteles",
+      "precio": 16500,
+      "calificacion": 45,
+      "disponible": false,
       "favorito": false
     }
   ],
