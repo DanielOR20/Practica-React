@@ -2,6 +2,7 @@ import InterruptorTema from '../components/InterruptorTema';
 import ListaEstudiantes from '../components/ListaEstudiantes';
 import AprobadosEstudiantes from '../components/AprobadosEstudiantes';
 import FiltroEstudiantes from '../components/FiltroEstudiantes';
+import CarritoFavoritos from '../components/CarritoFavoritos';
 
 export default function Home() {
   return (
@@ -22,6 +23,9 @@ export default function Home() {
 
       {/* Ejercicio 4 */}
       <FiltroEstudiantes />
+
+      {/* Ejercicio 5 */}
+      <CarritoFavoritos />
     </main>
   );
 }
