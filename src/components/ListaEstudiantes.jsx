@@ -12,6 +12,7 @@ export default function ListaEstudiantes() {
     <section style={{ padding: '16px', border: '1px solid #cbd5e1', borderRadius: '8px', marginBottom: '20px' }}>
       <h2>2. Lista de Estudiantes</h2>
       <ul style={{ listStyleType: 'none', padding: 0, marginTop: '12px' }}>
+        {/* Justificación: Se usa .map() porque transforma cada objeto del arreglo en un nodo JSX con su respectiva prop 'key' única para la reconciliación de React */}
         {estudiantes.map((e) => (
           <li 
             key={e.id} 

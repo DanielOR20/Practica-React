@@ -52,6 +52,7 @@ export default function FiltroEstudiantes() {
         <p style={{ color: '#64748b', fontStyle: 'italic' }}>Sin resultados</p>
       ) : (
         <ul style={{ listStyleType: 'none', padding: 0 }}>
+          {/* Justificación: Se usa un ternario para renderizado condicional de la vista completa (mostrar 'Sin resultados' o la lista mapeada) según la longitud del arreglo */}
           {listaFiltrada.map((e) => (
             <li
               key={e.id}

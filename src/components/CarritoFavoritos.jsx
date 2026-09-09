@@ -8,6 +8,7 @@ export default function CarritoFavoritos() {
     getProductos().then((data) => setProductos(data));
   }, []);
 
+  // Justificación: Se usa .map() en setProductos para actualizar el estado inmutablemente sin mutar el arreglo original de React
   const toggleFavorito = (id, estadoActual) => {
     const nuevoEstado = !estadoActual;
     

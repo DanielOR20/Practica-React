@@ -17,8 +17,8 @@ export default function InterruptorTema() {
     <section style={estiloCaja}>
       <h2>1. Interruptor de Tema</h2>
 
-      {/* onClick invierte el booleano; el texto se decide con un ternario */}
-      <button 
+      {/* Justificación: Se usa operador ternario porque dentro del JSX no se permite 'if'; el ternario retorna una expresión directamente para alternar el texto del botón y el tema */}
+      <button
         onClick={() => setOscuro(!oscuro)}
         style={{ padding: '8px 16px', cursor: 'pointer', marginTop: '10px' }}
       >

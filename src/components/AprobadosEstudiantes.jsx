@@ -8,7 +8,8 @@ export default function AprobadosEstudiantes() {
     getEstudiantes().then(data => setEstudiantes(data));
   }, []);
 
-  const aprobados = estudiantes.filter((e) => e.nota >= 60);
+// Justificación: Se usa .filter() para crear un nuevo arreglo inmutable con los registros que cumplen la condición booleana (nota >= 60) antes del renderizado
+const aprobados = estudiantes.filter((e) => e.nota >= 60);
 
   return (
     <section style={{ padding: '16px', border: '1px solid #cbd5e1', borderRadius: '8px', marginBottom: '20px' }}>
